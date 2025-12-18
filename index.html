@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alô Cerveja Distribuidora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>ALO CERVEJA DISTRIBUIDORA 🍺</header>
+
+<div class="container" id="produtos"></div>
+
+<div class="container">
+<label>Bairro</label>
+<select id="bairro"></select>
+
+<label>Rua e Número</label>
+<input id="rua" placeholder="Ex: Rua João Silva, Nº 123">
+
+<label>Referência</label>
+<input id="ref" placeholder="Ex: perto do mercado">
+
+<label>Observações</label>
+<textarea id="obs" placeholder="Ex: chamar no portão"></textarea>
+
+<label>Forma de pagamento</label>
+<select id="pagamento">
+<option value="">Selecione</option>
+<option value="Pix">Pix</option>
+<option value="Dinheiro">Dinheiro</option>
+</select>
+
+<input id="troco" placeholder="Se dinheiro, pagar com quanto?" type="number">
+
+<div class="total">
+<p>🛒 Total produtos: R$ <span id="tp">0.00</span></p>
+<p>🚚 Taxa entrega: R$ <span id="te">0.00</span></p>
+<h3>💰 Total a pagar: R$ <span id="tt">0.00</span></h3>
+</div>
+
+<button onclick="finalizar()">FINALIZAR NO WHATSAPP</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

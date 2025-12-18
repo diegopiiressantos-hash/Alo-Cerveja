@@ -1,0 +1,9 @@
+body{margin:0;font-family:Arial;background:#000;color:#fff}
+header{background:#f5c400;color:#000;text-align:center;padding:15px;font-weight:bold}
+.container{padding:15px}
+.card{background:#111;padding:10px;margin-bottom:10px;border-radius:8px}
+.row{display:flex;justify-content:space-between;align-items:center}
+.qty button{background:#f5c400;border:none;padding:5px 10px;font-size:16px}
+button{width:100%;padding:15px;background:#25D366;border:none;border-radius:8px;font-size:16px;font-weight:bold}
+input,select,textarea{width:100%;padding:10px;margin-bottom:10px;border-radius:6px}
+.total{background:#111;padding:10px;border-radius:8px}
